@@ -1,0 +1,7 @@
+__pycache__/
+instance/
+documents/doc.pdf
+figures/figure.png
+models/best_model.pkl
+statistics/prediction.xlsx
+statistics/stat.xlsx

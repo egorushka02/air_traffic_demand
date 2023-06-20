@@ -1,0 +1,17 @@
+{% extends 'base.html' %}
+
+{% block title %}
+
+{% endblock %}
+Обучение моделей для прогнозирования спроса
+{% block body %}
+<div class = "container mt-5">
+<form method="post">
+<h4>Обучение моделей для прогнозирования спроса</h4>
+    <input type="number" name="min_num_estimators" id="min_num_estimators" class="form-control" placeholder="Введите минимальное количество деревьев"><br>
+    <input type="number" name="max_num_estimators" id="max_num_estimators" class="form-control" placeholder="Введите максимальное количество деревьев"><br>
+    <input type="number" name="min_depth" id="min_depth" class="form-control" placeholder="Введите минимальную глубину дерева"><br>
+    <input type="number" name="max_depth" id="max_depth" class="form-control" placeholder="Введите максимальную глубину дерева"><br>
+    <input type="submit" class="btn btn-succes" value="Обучить модели"><br>
+</div>
+{% endblock %}
